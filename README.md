@@ -19,7 +19,7 @@ Expands Combat Extended gun selection, works perfectly with and without [Combat 
 - Henry Big Boy
 ### Sniper Rifles
 - Mini-14
-- M39
+- M39 EMR
 ### Machine Guns
 - RPK-16
 - Bren LMG
