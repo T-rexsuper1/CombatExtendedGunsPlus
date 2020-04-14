@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- === Flintlock Pistol / Musket === -->
+  <SoundDef>
+    <defName>Shot_CEP_Musket</defName>
+    <context>MapOnly</context>    
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Shot/Shot_Musket</clipPath>
+          </li>
+        </grains>
+        <pitchRange>1.091765~1</pitchRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <!-- === FN Five-seveN === -->
+  <SoundDef>
+    <defName>Shot_CEP_FN57</defName>
+    <context>MapOnly</context>    
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Shot/Shot_FN57</clipPath>
+          </li>
+        </grains>
+        <pitchRange>1.091765~1</pitchRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <!-- === FN P90 === -->
+  <SoundDef>
+    <defName>Shot_CEP_FNP90</defName>
+    <context>MapOnly</context>    
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Shot/Shot_FNP90</clipPath>
+          </li>
+        </grains>
+        <pitchRange>1.091765~1</pitchRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <!-- === AKS-74 / RPK-16 === -->
+  <SoundDef>
+    <defName>Shot_CEP_AK</defName>
+    <context>MapOnly</context>    
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Shot/Shot_AK</clipPath>
+          </li>
+        </grains>
+        <pitchRange>1.091765~1</pitchRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <!-- === Tavor 7 === -->
+  <SoundDef>
+    <defName>Shot_CEP_Tavor7</defName>
+    <context>MapOnly</context>    
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Shot/Shot_Tavor7</clipPath>
+          </li>
+        </grains>
+        <pitchRange>1.091765~1</pitchRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <!-- === Sig MCX === -->
+  <SoundDef>
+    <defName>Shot_CEP_MCX</defName>
+    <context>MapOnly</context>    
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Shot/Shot_MCX</clipPath>
+          </li>
+        </grains>
+        <pitchRange>1.091765~1</pitchRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <!-- === Henry Big Boy === -->
+
+  <!-- === Ruger Mini-14 === -->
+  <SoundDef>
+    <defName>Shot_CEP_Mini14</defName>
+    <context>MapOnly</context>    
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Shot/Shot_Mini14</clipPath>
+          </li>
+        </grains>
+        <pitchRange>1.091765~1</pitchRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <!-- === M39 EMR === -->
+  <SoundDef>
+    <defName>Shot_CEP_M39</defName>
+    <context>MapOnly</context>    
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Shot/Shot_M39</clipPath>
+          </li>
+        </grains>
+        <pitchRange>1.091765~1</pitchRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <!-- === Bren LMG === -->
+  <SoundDef>
+    <defName>Shot_CEP_Bren</defName>
+    <context>MapOnly</context>    
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Shot/Shot_Bren</clipPath>
+          </li>
+        </grains>
+        <pitchRange>1.091765~1</pitchRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <!-- === FN M249 === -->
+  <SoundDef>
+    <defName>Shot_CEP_M249</defName>
+    <context>MapOnly</context>    
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Shot/Shot_M249</clipPath>
+          </li>
+        </grains>
+        <pitchRange>1.091765~1</pitchRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+</Defs>

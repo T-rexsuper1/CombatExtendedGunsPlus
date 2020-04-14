@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<ModMetaData>
+	<packageId>Andross.CEGP</packageId>
+	<name>Combat Extended Guns +</name>
+	<author>Andross, Luizi</author>
+	<url>https://github.com/onigamii/CombatExtendedGunsPlus</url>
+	<supportedVersions>
+		<li>1.1</li>
+	</supportedVersions>
+	<description><![CDATA[GUNS FOR THE GUN GOD!
+
+Version <color=#FFD800>1.0</color>
+]]>  
+	</description>
+</ModMetaData>

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <!-- === Flintlock Pistol / Musket === -->
+
+  <!-- === FN Five-seveN === -->
+  <SoundDef>
+    <defName>Interact_CEP_FN57</defName>
+    <context>MapOnly</context>    
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Interact/Interact_FN57</clipPath>
+          </li>
+        </grains>
+        <pitchRange>0.9152174~1.042391</pitchRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <!-- === FN P90 === -->
+  <SoundDef>
+    <defName>Interact_CEP_FNP90</defName>
+    <context>MapOnly</context>    
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Interact/Interact_FNP90</clipPath>
+          </li>
+        </grains>
+        <pitchRange>
+          <min>0.936413</min>
+          <max>1.042391</max>
+        </pitchRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <!-- === AKS-74 / RPK-16 === -->
+  <SoundDef>
+    <defName>Interact_CEP_AK</defName>
+    <context>MapOnly</context>    
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Interact/Interact_AK</clipPath>
+          </li>
+        </grains>
+        <pitchRange>
+          <min>1</min>
+          <max>1</max>
+        </pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <!-- === IWI Tavor 7 === -->
+  <SoundDef>
+    <defName>Interact_CEP_Tavor7</defName>
+    <context>MapOnly</context>    
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Interact/Interact_Tavor7</clipPath>
+          </li>
+        </grains>
+        <pitchRange>0.9152174~1.042391</pitchRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <!-- === Sig MCX === -->
+  <SoundDef>
+    <defName>Interact_CEP_MCX</defName>
+    <context>MapOnly</context>
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Interact/Interact_MCX</clipPath>
+          </li>
+        </grains>
+        <pitchRange>0.9152174~1.042391</pitchRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <!-- === Henry Big Boy === -->
+
+  <!-- === Ruger Mini-14 === -->
+  <SoundDef>
+    <defName>Interact_CEP_Mini14</defName>
+    <context>MapOnly</context>    
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Interact/Interact_Mini14</clipPath>
+          </li>
+        </grains>
+        <pitchRange>0.9152174~1.042391</pitchRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <!-- === M39 EMR === -->
+  <SoundDef>
+    <defName>Interact_CEP_M39</defName>
+    <context>MapOnly</context>    
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Interact/Interact_M39</clipPath>
+          </li>
+        </grains>
+       <pitchRange>0.9152174~1.042391</pitchRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <!-- === Bren LMG === -->
+  <SoundDef>
+    <defName>Interact_CEP_Bren</defName>
+    <context>MapOnly</context>
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Interact/Interact_Bren</clipPath>
+          </li>
+        </grains>
+        <pitchRange>0.9152174~1.042391</pitchRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <!-- === FN M249 === -->
+  <SoundDef>
+    <defName>Interact_CEP_M249</defName>
+    <context>MapOnly</context>    
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Interact/Interact_M249</clipPath>
+          </li>
+        </grains>
+        <pitchRange>0.9152174~1.042391</pitchRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+</Defs>
