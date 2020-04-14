@@ -7,7 +7,7 @@ Expands Combat Extended gun selection, works perfectly with and without [Combat 
 - FN Five-seveN
 - R3 Charge Pistol
 ### SMG's
-- P90
+- FN P90
 ### Shotguns
 - Sawed Off
 - S9 Charge Shotgun
@@ -26,6 +26,6 @@ Expands Combat Extended gun selection, works perfectly with and without [Combat 
 - M249
 - PKP Pecheneg
 ### Launchers
-- S15 Charge Launcher
+- S15 Charge Launcher [WIP]
 ### Mortars
-- Portable 60mm Mortar
+- Portable 60mm Mortar [WIP]
