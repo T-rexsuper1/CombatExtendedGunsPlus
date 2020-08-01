@@ -165,16 +165,16 @@
     </subSounds>
   </SoundDef>
 
-  <!-- === FN M249 === -->
+  <!-- === FN Minimi === -->
   <SoundDef>
-    <defName>Shot_CEP_M249</defName>
+    <defName>Shot_CEP_FNMinimi</defName>
     <context>MapOnly</context>    
     <maxSimultaneous>1</maxSimultaneous>
     <subSounds>
       <li>
         <grains>
           <li Class="AudioGrain_Clip">
-            <clipPath>Shot/Shot_M249</clipPath>
+            <clipPath>Shot/Shot_FNMinimi</clipPath>
           </li>
         </grains>
         <pitchRange>1.091765~1</pitchRange>

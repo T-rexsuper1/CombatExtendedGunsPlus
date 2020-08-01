@@ -153,16 +153,16 @@
     </subSounds>
   </SoundDef>
 
-  <!-- === FN M249 === -->
+  <!-- === FN Minimi === -->
   <SoundDef>
-    <defName>Interact_CEP_M249</defName>
+    <defName>Interact_CEP_FNMinimi</defName>
     <context>MapOnly</context>    
     <maxSimultaneous>1</maxSimultaneous>
     <subSounds>
       <li>
         <grains>
           <li Class="AudioGrain_Clip">
-            <clipPath>Interact/Interact_M249</clipPath>
+            <clipPath>Interact/Interact_FNMinimi</clipPath>
           </li>
         </grains>
         <pitchRange>0.9152174~1.042391</pitchRange>

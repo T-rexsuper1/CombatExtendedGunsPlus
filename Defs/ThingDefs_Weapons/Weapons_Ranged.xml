@@ -748,7 +748,7 @@
 
     <verbs>
       <li Class="CombatExtended.VerbPropertiesCE">
-        <recoilAmount>2.21</recoilAmount>
+        <recoilAmount>2.11</recoilAmount>
         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_762x51mmNATO_FMJ</defaultProjectile>
@@ -1316,16 +1316,16 @@
     </tools>
   </ThingDef>
 
-  <!-- == M249 == -->
+  <!-- == FN Minimi == -->
   <ThingDef ParentName="BaseHumanMakeableGun_CEP">
-    <defName>CEP_MTwoFortyNine</defName>
-    <label>M249</label>
+    <defName>CEP_FNMinimi</defName>
+    <label>FN Minimi</label>
     <description>.</description>
 
-    <soundInteract>Interact_CEP_M249</soundInteract>
+    <soundInteract>Interact_CEP_FNMinimi</soundInteract>
 
     <graphicData>
-      <texPath>Weapons/M249</texPath>
+      <texPath>Weapons/FNMinimi</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
 
@@ -1366,7 +1366,7 @@
         <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
         <warmupTime>1.3</warmupTime>
         <range>62</range>
-        <soundCast>Shot_CEP_M249</soundCast>
+        <soundCast>Shot_CEP_FNMinimi</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
@@ -1425,7 +1425,7 @@
   <!-- == R3 Charge Pistol == -->
   <ThingDef ParentName="BaseHumanMakeableGun_CEP">
     <defName>CEP_R3ChargePistol</defName>
-    <label>R3 Charge Pistol</label>
+    <label>R-3 Charge Pistol</label>
     <description>.</description>
 
     <soundInteract>Interact_ChargeRifle</soundInteract>
@@ -1524,7 +1524,7 @@
   <!-- == S9 Charge Shotgun == -->
   <ThingDef ParentName="BaseHumanMakeableGun_CEP">
     <defName>CEP_S9ChargeShotgun</defName>
-    <label>S9 Charge Shotgun</label>
+    <label>S-9 Charge Shotgun</label>
     <description>.</description>
 
     <soundInteract>Interact_ChargeRifle</soundInteract>
@@ -1629,7 +1629,7 @@
   <!-- == S15 Charge Launcher == -->
   <ThingDef ParentName="BaseHumanMakeableGun_CEP">
     <defName>CEP_S15ChargeLauncher</defName>
-    <label>S15 Charge Launcher</label>
+    <label>S-15 Charge Launcher</label>
     <description>.</description>
 
     <soundInteract>Interact_ChargeRifle</soundInteract>
@@ -1663,10 +1663,7 @@
       <ComponentIndustrial>7</ComponentIndustrial>
     </costList>
 
-    <weaponTags>
-      <li>AdvancedGun</li>
-      <li>GunHeavy</li>
-    </weaponTags>
+    <weaponTags Inherit="False" />
 
     <modExtensions>
       <li Class="CombatExtended.GunDrawExtension">
