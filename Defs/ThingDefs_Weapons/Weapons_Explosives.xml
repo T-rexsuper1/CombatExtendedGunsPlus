@@ -14,8 +14,8 @@
       <soundExplode>Explosion_SatchelCharge</soundExplode>
       <explosionRadius>4</explosionRadius >
       <damageDef>Bomb</damageDef>
-      <damageAmountBase>244</damageAmountBase>
-      <explosionDelay>160</explosionDelay>
+      <damageAmountBase>250</damageAmountBase>
+      <explosionDelay>180</explosionDelay>
       <applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
       <speed>5</speed>
     </projectile>
@@ -33,7 +33,7 @@
     </graphicData>
     <soundInteract>Interact_SatchelCharge</soundInteract>
     <techLevel>Industrial</techLevel>
-    <stackLimit>75</stackLimit>
+    <stackLimit>50</stackLimit>
     <statBases>
       <Mass>4.5</Mass>
       <Bulk>4.72</Bulk>
@@ -68,11 +68,56 @@
     </verbs>
     <comps>
       <li Class="CombatExtended.CompProperties_ExplosiveCE">
-        <damageAmountBase>244</damageAmountBase>
+        <damageAmountBase>250</damageAmountBase>
         <explosiveDamageType>Bomb</explosiveDamageType>
         <explosiveRadius>4</explosiveRadius>
       </li>
     </comps>
   </ThingDef>
+
+  <!-- == Recipe == -->
+  <RecipeDef ParentName="GrenadeRecipeBase">
+    <defName>MakeSatchelCharge</defName>
+    <label>make satchel charges x10</label>
+    <description>Craft 10 satchel charges.</description>
+    <jobString>Making satchel charges.</jobString>
+    <workAmount>12000</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Cloth</li>
+          </thingDefs>
+        </filter>
+        <count>50</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>FSX</li>
+          </thingDefs>
+        </filter>
+        <count>50</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentIndustrial</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Cloth</li>
+        <li>FSX</li>
+        <li>ComponentIndustrial</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Weapon_GrenadeFrag>10</Weapon_GrenadeFrag>
+    </products>
+  </RecipeDef>
 
 </Defs>
