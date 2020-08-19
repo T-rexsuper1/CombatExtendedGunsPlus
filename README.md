@@ -26,6 +26,8 @@ Expands Combat Extended gun selection, works perfectly with and without [Combat 
 - M249
 - PKP Pecheneg
 ### Launchers
-- S15 Charge Launcher [WIP]
+- S15 Charge Launcher [Disabled]
+### Explosives
+- Satchel Charge
 ### Mortars
-- Portable 60mm Mortar [WIP]
+- Portable 60mm Mortar [Disabled]

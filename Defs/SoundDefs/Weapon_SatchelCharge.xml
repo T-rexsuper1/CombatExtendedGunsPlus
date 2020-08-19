@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- === Interact === -->
+  <SoundDef>
+    <defName>Interact_SatchelCharge</defName>  
+    <context>MapOnly</context>   
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Explosives/Satchel/Satchel_Interact</clipPath>
+          </li>
+        </grains>      
+        <volumeRange>23.91304~23.91304</volumeRange>
+        <pitchRange>0.9576087~1.084783</pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <!-- === Throw === -->
+  <SoundDef>
+    <defName>Throw_SatchelCharge</defName>  
+    <context>MapOnly</context>   
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Explosives/Satchel/Throw</clipFolderPath>
+          </li>
+        </grains>      
+        <volumeRange>20.91304~20.91304</volumeRange>
+        <pitchRange>0.9576087~1.084783</pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <!-- === Explode === -->
+  <SoundDef>
+    <defName>Explosion_SatchelCharge</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Explosives/Satchel/Satchel_Explode</clipPath>
+          </li>
+        </grains>
+        <volumeRange>40.91304~40.91304</volumeRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+</Defs>

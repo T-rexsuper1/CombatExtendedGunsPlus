@@ -1627,7 +1627,7 @@
   </ThingDef>
 
   <!-- == S15 Charge Launcher == -->
-  <ThingDef ParentName="BaseHumanMakeableGun_CEP">
+  <!-- <ThingDef ParentName="BaseHumanMakeableGun_CEP">
     <defName>CEP_S15ChargeLauncher</defName>
     <label>S-15 Charge Launcher</label>
     <description>.</description>
@@ -1663,7 +1663,9 @@
       <ComponentIndustrial>7</ComponentIndustrial>
     </costList>
 
-    <weaponTags Inherit="False" />
+    <weaponTags>
+      <li>SpacerGun</li>
+    </weaponTags>
 
     <modExtensions>
       <li Class="CombatExtended.GunDrawExtension">
@@ -1719,6 +1721,6 @@
         <linkedBodyPartsGroup>Barrel</linkedBodyPartsGroup>
       </li>
     </tools>
-  </ThingDef>
+  </ThingDef> -->
 
 </Defs>
