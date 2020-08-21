@@ -15,7 +15,7 @@
       <explosionRadius>4</explosionRadius >
       <damageDef>Bomb</damageDef>
       <damageAmountBase>250</damageAmountBase>
-      <explosionDelay>180</explosionDelay>
+      <explosionDelay>220</explosionDelay>
       <applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
       <speed>5</speed>
     </projectile>
@@ -116,7 +116,7 @@
       </thingDefs>
     </fixedIngredientFilter>
     <products>
-      <Weapon_GrenadeFrag>10</Weapon_GrenadeFrag>
+      <Weapon_SatchelCharge>10</Weapon_SatchelCharge>
     </products>
   </RecipeDef>
 
