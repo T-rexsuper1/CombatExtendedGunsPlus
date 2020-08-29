@@ -4,7 +4,7 @@
   <!-- === Flintlock Pistol / Musket === -->
   <SoundDef>
     <defName>Shot_CEP_Musket</defName>
-    <context>MapOnly</context>    
+    <context>MapOnly</context>
     <maxSimultaneous>1</maxSimultaneous>
     <subSounds>
       <li>
@@ -22,7 +22,7 @@
   <!-- === FN Five-seveN === -->
   <SoundDef>
     <defName>Shot_CEP_FN57</defName>
-    <context>MapOnly</context>    
+    <context>MapOnly</context>
     <maxSimultaneous>1</maxSimultaneous>
     <subSounds>
       <li>
@@ -40,7 +40,7 @@
   <!-- === FN P90 === -->
   <SoundDef>
     <defName>Shot_CEP_FNP90</defName>
-    <context>MapOnly</context>    
+    <context>MapOnly</context>
     <maxSimultaneous>1</maxSimultaneous>
     <subSounds>
       <li>
@@ -58,7 +58,7 @@
   <!-- === AKS-74 / RPK-16 === -->
   <SoundDef>
     <defName>Shot_CEP_AK</defName>
-    <context>MapOnly</context>    
+    <context>MapOnly</context>
     <maxSimultaneous>1</maxSimultaneous>
     <subSounds>
       <li>
@@ -76,7 +76,7 @@
   <!-- === Tavor 7 === -->
   <SoundDef>
     <defName>Shot_CEP_Tavor7</defName>
-    <context>MapOnly</context>    
+    <context>MapOnly</context>
     <maxSimultaneous>1</maxSimultaneous>
     <subSounds>
       <li>
@@ -94,7 +94,7 @@
   <!-- === Sig MCX === -->
   <SoundDef>
     <defName>Shot_CEP_MCX</defName>
-    <context>MapOnly</context>    
+    <context>MapOnly</context>
     <maxSimultaneous>1</maxSimultaneous>
     <subSounds>
       <li>
@@ -114,7 +114,7 @@
   <!-- === Ruger Mini-14 === -->
   <SoundDef>
     <defName>Shot_CEP_Mini14</defName>
-    <context>MapOnly</context>    
+    <context>MapOnly</context>
     <maxSimultaneous>1</maxSimultaneous>
     <subSounds>
       <li>
@@ -132,7 +132,7 @@
   <!-- === M39 EMR === -->
   <SoundDef>
     <defName>Shot_CEP_M39</defName>
-    <context>MapOnly</context>    
+    <context>MapOnly</context>
     <maxSimultaneous>1</maxSimultaneous>
     <subSounds>
       <li>
@@ -150,7 +150,7 @@
   <!-- === Bren LMG === -->
   <SoundDef>
     <defName>Shot_CEP_Bren</defName>
-    <context>MapOnly</context>    
+    <context>MapOnly</context>
     <maxSimultaneous>1</maxSimultaneous>
     <subSounds>
       <li>
@@ -168,13 +168,31 @@
   <!-- === FN Minimi === -->
   <SoundDef>
     <defName>Shot_CEP_FNMinimi</defName>
-    <context>MapOnly</context>    
+    <context>MapOnly</context>
     <maxSimultaneous>1</maxSimultaneous>
     <subSounds>
       <li>
         <grains>
           <li Class="AudioGrain_Clip">
             <clipPath>Shot/Shot_FNMinimi</clipPath>
+          </li>
+        </grains>
+        <pitchRange>1.091765~1</pitchRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <!-- === Portable Mortar === -->
+  <SoundDef>
+    <defName>Shot_CEP_M224</defName>
+    <context>MapOnly</context>
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Shot/Shot_M224</clipPath>
           </li>
         </grains>
         <pitchRange>1.091765~1</pitchRange>

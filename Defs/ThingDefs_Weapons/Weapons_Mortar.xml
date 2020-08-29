@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- === Base === -->
+  <ThingDef ParentName="TurretMannedCraftableBase">
+    <defName>Turret_PortableMortar</defName>
+    <label>M224 LWCMS</label>
+    <description>The M224 LWCMS (Lightweight Company Mortar System) mortar is a 60mm portable mortar used for close-in support of ground troops.</description>
+    <uiIconPath>Turrets/PortableMortar</uiIconPath>
+    <uiIconScale>0.90</uiIconScale>
+    <constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+    <graphicData>
+      <texPath>Turrets/PortableMortar_Base</texPath>
+      <drawSize>(2,2)</drawSize>
+    </graphicData>
+    <statBases>
+      <WorkToMake>33500</WorkToMake>
+      <Mass>16</Mass>
+      <Bulk>10</Bulk>
+    </statBases>
+    <costList>
+      <Steel>115</Steel>
+      <ComponentIndustrial>5</ComponentIndustrial>
+    </costList>
+    <tradeTags>
+      <li>CE_Turret</li>
+    </tradeTags>
+    <specialDisplayRadius>8</specialDisplayRadius>
+    <building>
+      <turretGunDef>Gun_PortableMortar</turretGunDef>
+      <ai_combatDangerous>true</ai_combatDangerous>
+      <turretBurstCooldownTime>1</turretBurstCooldownTime>
+      <spawnedConceptLearnOpportunity>CE_MortarDirectFire</spawnedConceptLearnOpportunity>
+    </building>
+    <placeWorkers>
+      <li>PlaceWorker_NotUnderRoof</li>
+      <li>PlaceWorker_TurretTop</li>
+      <li>PlaceWorker_ShowTurretRadius</li>
+    </placeWorkers>
+    <recipeMaker>
+      <researchPrerequisite>Mortars</researchPrerequisite>
+    </recipeMaker>
+    <minifiedDef>MinifiedThing</minifiedDef>
+  </ThingDef>
+
+  <!-- === Turret === -->
+  <ThingDef ParentName="BaseTurretGun">
+    <defName>Gun_PortableMortar</defName>
+    <label>M224 LWCMS</label>
+    <graphicData>
+      <texPath>Turrets/PortableMortar_Turret</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <description>60mm mortar on a portable emplacement.</description>
+    <soundInteract>Artillery_ShellLoaded</soundInteract>
+    <statBases>
+      <MarketValue>2500</MarketValue>
+      <SightsEfficiency>0.5</SightsEfficiency>
+      <RangedWeapon_Cooldown>2.71</RangedWeapon_Cooldown>
+    </statBases>
+    <weaponTags>
+      <li>TurretGun</li>
+      <li>Artillery_BaseDestroyer</li>
+    </weaponTags>
+    <verbs>
+      <li Class="CombatExtended.VerbPropertiesCE">
+        <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_60mmMortarShell_HE</defaultProjectile>
+        <warmupTime>4.55</warmupTime>
+        <minRange>8</minRange>
+        <range>500</range>
+        <burstShotCount />
+        <soundCast>Shot_CEP_M224</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>16</muzzleFlashScale>
+        <circularError>1</circularError>
+        <indirectFirePenalty>0.2</indirectFirePenalty>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+        <recoilPattern>Mounted</recoilPattern>
+      </li>
+    </verbs>
+    <comps>
+      <li Class="CombatExtended.CompProperties_Charges">
+        <chargeSpeeds>
+          <li>30</li>
+          <li>50</li>
+          <li>70</li>
+          <li>90</li>
+        </chargeSpeeds>
+      </li>
+      <li Class="CombatExtended.CompProperties_AmmoUser">
+        <magazineSize>1</magazineSize>
+        <reloadTime>4</reloadTime>
+        <ammoSet>AmmoSet_60mmMortarShell</ammoSet>
+      </li>
+    </comps>
+  </ThingDef>
+
+</Defs>

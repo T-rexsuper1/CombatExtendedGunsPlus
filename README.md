@@ -30,4 +30,4 @@ Expands Combat Extended gun selection, works perfectly with and without [Combat 
 ### Explosives
 - Satchel Charge
 ### Mortars
-- Portable 60mm Mortar [Disabled]
+- M224 LWCMS
