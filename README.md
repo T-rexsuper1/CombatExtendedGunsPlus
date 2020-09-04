@@ -24,10 +24,9 @@ Expands Combat Extended gun selection, works perfectly with and without [Combat 
 - RPK-16
 - Bren LMG
 - M249
-- PKP Pecheneg
 ### Launchers
 - S15 Charge Launcher [Disabled]
 ### Explosives
 - Satchel Charge
 ### Mortars
-- M224 LWCMS
+- M224 LWCMS (Portable Mortar)
