@@ -9,7 +9,7 @@
 		<li>1.1</li>
 		<li>1.2</li>
 	</supportedVersions>
-	<description>Version: 1.2.1.0\n\nVariety of weapons to expand the available calibers.</description>
+	<description>Version: 1.2.1.1\n\nVariety of weapons to expand the available calibers.</description>
 	<loadAfter>
 		<li>CETeam.CombatExtended</li>
 	</loadAfter>

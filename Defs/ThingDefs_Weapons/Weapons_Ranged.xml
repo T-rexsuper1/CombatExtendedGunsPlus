@@ -244,6 +244,11 @@
       <ComponentIndustrial>3</ComponentIndustrial>
     </costList>
 
+    <weaponTags>
+      <li>SimpleGun</li>
+      <li>CE_OneHandedWeapon</li>
+    </weaponTags>
+
     <modExtensions>
       <li Class="CombatExtended.GunDrawExtension">
         <DrawSize>0.95,0.95</DrawSize>
@@ -332,6 +337,11 @@
       <Chemfuel>10</Chemfuel>
       <ComponentIndustrial>6</ComponentIndustrial>
     </costList>
+
+    <weaponTags>
+      <li>IndustrialGunAdvanced</li>
+      <li>CE_OneHandedWeapon</li>
+    </weaponTags>
 
     <modExtensions>
       <li Class="CombatExtended.GunDrawExtension">
@@ -439,6 +449,7 @@
 
     <weaponTags>
       <li>CE_AI_AssaultWeapon</li>
+      <li>CE_OneHandedWeapon</li>
     </weaponTags>
 
     <modExtensions>
@@ -469,7 +480,7 @@
         <ammoSet>AmmoSet_12Gauge</ammoSet>
       </li>
       <li Class="CombatExtended.CompProperties_FireModes">
-        <aiAimMode>AimedShot</aiAimMode>
+        <aiAimMode>Snapshot</aiAimMode>
       </li>
     </comps>
 
@@ -530,6 +541,10 @@
       <Chemfuel>10</Chemfuel>
       <ComponentIndustrial>5</ComponentIndustrial>
     </costList>
+
+    <weaponTags>
+      <li>IndustrialGunAdvanced</li>
+    </weaponTags>
 
     <modExtensions>
       <li Class="CombatExtended.GunDrawExtension">
@@ -635,6 +650,10 @@
       <ComponentIndustrial>5</ComponentIndustrial>
     </costList>
 
+    <weaponTags>
+      <li>IndustrialGunAdvanced</li>
+    </weaponTags>
+
     <modExtensions>
       <li Class="CombatExtended.GunDrawExtension">
         <DrawSize>1.15,1.28</DrawSize>
@@ -738,6 +757,10 @@
       <Chemfuel>10</Chemfuel>
       <ComponentIndustrial>6</ComponentIndustrial>
     </costList>
+
+    <weaponTags>
+      <li>IndustrialGunAdvanced</li>
+    </weaponTags>
 
     <modExtensions>
       <li Class="CombatExtended.GunDrawExtension">
@@ -843,6 +866,10 @@
       <ComponentIndustrial>6</ComponentIndustrial>
     </costList>
 
+    <weaponTags>
+      <li>IndustrialGunAdvanced</li>
+    </weaponTags>
+
     <modExtensions>
       <li Class="CombatExtended.GunDrawExtension">
         <DrawSize>1.26,1.38</DrawSize>
@@ -947,6 +974,10 @@
       <ComponentIndustrial>4</ComponentIndustrial>
     </costList>
 
+    <weaponTags>
+      <li>SniperRifle</li>
+    </weaponTags>
+
     <modExtensions>
       <li Class="CombatExtended.GunDrawExtension">
         <DrawSize>1.25,1.45</DrawSize>
@@ -1045,6 +1076,10 @@
       <WoodLog>10</WoodLog>
       <ComponentIndustrial>2</ComponentIndustrial>
     </costList>
+
+    <weaponTags>
+      <li>SniperRifle</li>
+    </weaponTags>
 
     <modExtensions>
       <li Class="CombatExtended.GunDrawExtension">
@@ -1146,6 +1181,10 @@
       <ComponentIndustrial>6</ComponentIndustrial>
     </costList>
 
+    <weaponTags>
+      <li>SniperRifle</li>
+    </weaponTags>
+
     <modExtensions>
       <li Class="CombatExtended.GunDrawExtension">
         <DrawSize>1.20,1.38</DrawSize>
@@ -1231,7 +1270,7 @@
       <Bulk>16.56</Bulk>
       <ShotSpread>0.04</ShotSpread>
       <SwayFactor>1.42</SwayFactor>
-      <SightsEfficiency>2.00</SightsEfficiency>
+      <SightsEfficiency>1.5</SightsEfficiency>
       <RangedWeapon_Cooldown>0.56</RangedWeapon_Cooldown>
     </statBases>
 
@@ -1244,6 +1283,10 @@
       <WoodLog>10</WoodLog>
       <ComponentIndustrial>5</ComponentIndustrial>
     </costList>
+
+    <weaponTags>
+      <li>IndustrialGunAdvanced</li>
+    </weaponTags>
 
     <modExtensions>
       <li Class="CombatExtended.GunDrawExtension">
@@ -1348,6 +1391,10 @@
       <Chemfuel>15</Chemfuel>
       <ComponentIndustrial>6</ComponentIndustrial>
     </costList>
+
+    <weaponTags>
+      <li>IndustrialGunAdvanced</li>
+    </weaponTags>
 
     <modExtensions>
       <li Class="CombatExtended.GunDrawExtension">
@@ -1462,7 +1509,7 @@
     <weaponTags>
       <li>CE_Sidearm</li>
       <li>CE_OneHandedWeapon</li>
-      <li>AdvancedGun</li>
+      <li>SpacerGun</li>
     </weaponTags>
 
     <modExtensions>
@@ -1560,7 +1607,7 @@
 
     <weaponTags>
       <li>CE_AI_AssaultWeapon</li>
-      <li>AdvancedGun</li>
+      <li>SpacerGun</li>
     </weaponTags>
 
     <modExtensions>
@@ -1588,6 +1635,9 @@
         <magazineSize>20</magazineSize>
         <reloadTime>4.5</reloadTime>
         <ammoSet>AmmoSet_12GaugeCharged</ammoSet>
+      </li>
+      <li Class="CombatExtended.CompProperties_FireModes">
+        <aiAimMode>Snapshot</aiAimMode>
       </li>
     </comps>
 
