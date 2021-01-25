@@ -23,10 +23,10 @@ Expands Combat Extended gun selection, works perfectly with and without [Combat 
 ### Machine Guns
 - RPK-16
 - Bren LMG
-- M249
+- FN Minimi
 ### Launchers
 - S15 Charge Launcher [Disabled]
 ### Explosives
 - Satchel Charge
 ### Mortars
-- M224 LWCMS (Portable Mortar)
+- M224 LWCMS
