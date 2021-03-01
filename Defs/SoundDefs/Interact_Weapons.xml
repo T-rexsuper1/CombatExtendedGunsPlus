@@ -1,10 +1,27 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-  <!-- === Flintlock Pistol / Musket === -->
+  
+  <!-- === Satchel Charge === -->
+  <SoundDef>
+    <defName>Interact_SatchelCharge</defName>  
+    <context>MapOnly</context>   
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Explosives/Satchel/Satchel_Interact</clipPath>
+          </li>
+        </grains>      
+        <volumeRange>23.91304~23.91304</volumeRange>
+        <pitchRange>0.9576087~1.084783</pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
 
   <!-- === FN Five-seveN === -->
   <SoundDef>
-    <defName>Interact_CEP_FN57</defName>
+    <defName>Interact_CE_FN57</defName>
     <context>MapOnly</context>    
     <maxSimultaneous>1</maxSimultaneous>
     <subSounds>
@@ -22,7 +39,7 @@
 
   <!-- === FN P90 === -->
   <SoundDef>
-    <defName>Interact_CEP_FNP90</defName>
+    <defName>Interact_CE_FNP90</defName>
     <context>MapOnly</context>    
     <maxSimultaneous>1</maxSimultaneous>
     <subSounds>
@@ -43,7 +60,7 @@
 
   <!-- === AKS-74 / RPK-16 === -->
   <SoundDef>
-    <defName>Interact_CEP_AK</defName>
+    <defName>Interact_CE_AK</defName>
     <context>MapOnly</context>    
     <maxSimultaneous>1</maxSimultaneous>
     <subSounds>
@@ -63,7 +80,7 @@
 
   <!-- === IWI Tavor 7 === -->
   <SoundDef>
-    <defName>Interact_CEP_Tavor7</defName>
+    <defName>Interact_CE_Tavor7</defName>
     <context>MapOnly</context>    
     <maxSimultaneous>1</maxSimultaneous>
     <subSounds>
@@ -81,7 +98,7 @@
 
   <!-- === Sig MCX === -->
   <SoundDef>
-    <defName>Interact_CEP_MCX</defName>
+    <defName>Interact_CE_MCX</defName>
     <context>MapOnly</context>
     <maxSimultaneous>1</maxSimultaneous>
     <subSounds>
@@ -101,7 +118,7 @@
 
   <!-- === Ruger Mini-14 === -->
   <SoundDef>
-    <defName>Interact_CEP_Mini14</defName>
+    <defName>Interact_CE_Mini14</defName>
     <context>MapOnly</context>    
     <maxSimultaneous>1</maxSimultaneous>
     <subSounds>
@@ -119,7 +136,7 @@
 
   <!-- === M39 EMR === -->
   <SoundDef>
-    <defName>Interact_CEP_M39</defName>
+    <defName>Interact_CE_M39</defName>
     <context>MapOnly</context>    
     <maxSimultaneous>1</maxSimultaneous>
     <subSounds>
@@ -137,7 +154,7 @@
 
   <!-- === Bren LMG === -->
   <SoundDef>
-    <defName>Interact_CEP_Bren</defName>
+    <defName>Interact_CE_Bren</defName>
     <context>MapOnly</context>
     <maxSimultaneous>1</maxSimultaneous>
     <subSounds>
@@ -155,7 +172,7 @@
 
   <!-- === FN Minimi === -->
   <SoundDef>
-    <defName>Interact_CEP_FNMinimi</defName>
+    <defName>Interact_CE_FNMinimi</defName>
     <context>MapOnly</context>    
     <maxSimultaneous>1</maxSimultaneous>
     <subSounds>

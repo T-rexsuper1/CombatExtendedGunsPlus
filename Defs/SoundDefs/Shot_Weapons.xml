@@ -1,9 +1,44 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+  <!-- === Satchel Charge === -->
+  <SoundDef>
+    <defName>Throw_SatchelCharge</defName>  
+    <context>MapOnly</context>   
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Explosives/Satchel/Throw</clipFolderPath>
+          </li>
+        </grains>      
+        <volumeRange>20.91304~20.91304</volumeRange>
+        <pitchRange>0.9576087~1.084783</pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <SoundDef>
+    <defName>Explosion_SatchelCharge</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Explosives/Satchel/Satchel_Explode</clipPath>
+          </li>
+        </grains>
+        <volumeRange>40.91304~40.91304</volumeRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+
   <!-- === Flintlock Pistol / Musket === -->
   <SoundDef>
-    <defName>Shot_CEP_Musket</defName>
+    <defName>Shot_CE_Musket</defName>
     <context>MapOnly</context>
     <maxSimultaneous>1</maxSimultaneous>
     <subSounds>
@@ -21,7 +56,7 @@
 
   <!-- === FN Five-seveN === -->
   <SoundDef>
-    <defName>Shot_CEP_FN57</defName>
+    <defName>Shot_CE_FN57</defName>
     <context>MapOnly</context>
     <maxSimultaneous>1</maxSimultaneous>
     <subSounds>
@@ -39,7 +74,7 @@
 
   <!-- === FN P90 === -->
   <SoundDef>
-    <defName>Shot_CEP_FNP90</defName>
+    <defName>Shot_CE_FNP90</defName>
     <context>MapOnly</context>
     <maxSimultaneous>1</maxSimultaneous>
     <subSounds>
@@ -57,7 +92,7 @@
 
   <!-- === AKS-74 / RPK-16 === -->
   <SoundDef>
-    <defName>Shot_CEP_AK</defName>
+    <defName>Shot_CE_AK</defName>
     <context>MapOnly</context>
     <maxSimultaneous>1</maxSimultaneous>
     <subSounds>
@@ -75,7 +110,7 @@
 
   <!-- === Tavor 7 === -->
   <SoundDef>
-    <defName>Shot_CEP_Tavor7</defName>
+    <defName>Shot_CE_Tavor7</defName>
     <context>MapOnly</context>
     <maxSimultaneous>1</maxSimultaneous>
     <subSounds>
@@ -93,7 +128,7 @@
 
   <!-- === Sig MCX === -->
   <SoundDef>
-    <defName>Shot_CEP_MCX</defName>
+    <defName>Shot_CE_MCX</defName>
     <context>MapOnly</context>
     <maxSimultaneous>1</maxSimultaneous>
     <subSounds>
@@ -113,7 +148,7 @@
 
   <!-- === Ruger Mini-14 === -->
   <SoundDef>
-    <defName>Shot_CEP_Mini14</defName>
+    <defName>Shot_CE_Mini14</defName>
     <context>MapOnly</context>
     <maxSimultaneous>1</maxSimultaneous>
     <subSounds>
@@ -131,7 +166,7 @@
 
   <!-- === M39 EMR === -->
   <SoundDef>
-    <defName>Shot_CEP_M39</defName>
+    <defName>Shot_CE_M39</defName>
     <context>MapOnly</context>
     <maxSimultaneous>1</maxSimultaneous>
     <subSounds>
@@ -149,7 +184,7 @@
 
   <!-- === Bren LMG === -->
   <SoundDef>
-    <defName>Shot_CEP_Bren</defName>
+    <defName>Shot_CE_Bren</defName>
     <context>MapOnly</context>
     <maxSimultaneous>1</maxSimultaneous>
     <subSounds>
@@ -167,7 +202,7 @@
 
   <!-- === FN Minimi === -->
   <SoundDef>
-    <defName>Shot_CEP_FNMinimi</defName>
+    <defName>Shot_CE_FNMinimi</defName>
     <context>MapOnly</context>
     <maxSimultaneous>1</maxSimultaneous>
     <subSounds>
@@ -185,7 +220,7 @@
 
   <!-- === Portable Mortar === -->
   <SoundDef>
-    <defName>Shot_CEP_M224</defName>
+    <defName>Shot_CE_M224</defName>
     <context>MapOnly</context>
     <maxSimultaneous>1</maxSimultaneous>
     <subSounds>

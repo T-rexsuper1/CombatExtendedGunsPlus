@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>RunAndGun</li>
+    </mods>
+    <match Class="PatchOperationAddModExtension">
+      <xpath>
+        /Defs/ThingDef[
+          defName = "CE_Gun_Musket" or
+          defName = "CE_Gun_RPKSixteen" or
+          defName = "CE_Gun_MiniFourteen" or
+          defName = "CE_Gun_BigBoy" or
+          defName = "CE_Gun_MThirtyNineEMR" or
+          defName = "CE_Gun_FNMinimi" or
+          defName = "CE_Gun_ChargeLauncher"
+        ]
+      </xpath>
+      <value>
+        <li Class="RunAndGun.DefModExtension_SettingDefaults">
+          <weaponForbidden>true</weaponForbidden>
+        </li>
+      </value>
+    </match>
+  </Operation>
+
+</Patch>

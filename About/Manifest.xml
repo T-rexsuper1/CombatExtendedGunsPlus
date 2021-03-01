@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Manifest>
-    <identifier>CombatExtendedGunsPlus</identifier>
-    <version>1.2.1.1</version>
-    <dependencies>
-    </dependencies>
-    <incompatibleWith>
-    </incompatibleWith>
-    <loadBefore>
-    </loadBefore>
-    <loadAfter>
-      <li>CombatExtended</li>
-    </loadAfter>
-    <suggests>
-      <li>CombatExtendedGuns</li> <!-- CE Guns -->
-      <li>CombatExtendedMelee</li> <!-- CE Melee -->
-    </suggests>
-    <showCrossPromotions>true</showCrossPromotions>
-    <manifestUri>https://raw.githubusercontent.com/onigamii/CombatExtendedGunsPlus/master/About/Manifest.xml</manifestUri>
-    <downloadUri>https://github.com/onigamii/CombatExtendedGunsPlus/</downloadUri>
+  <identifier>CombatExtendedGunsPlus</identifier>
+  <version>1.2.1.0</version>
+  <dependencies>
+     <li>CombatExtended</li>
+  </dependencies>
+  <loadAfter>
+     <li>CombatExtended</li>
+  </loadAfter>
+  <suggests>
+    <li>CombatExtended</li>
+    <li>CombatExtendedGuns</li>
+    <li>CombatExtendedMelee</li>
+  </suggests>
+  <showCrossPromotions>true</showCrossPromotions>
+  <manifestUri>https://raw.githubusercontent.com/onigamii/CombatExtendedGunsPlus/master/About/Manifest.xml</manifestUri>
+  <downloadUri>https://github.com/onigamii/CombatExtendedGunsPlus/</downloadUri>
 </Manifest>

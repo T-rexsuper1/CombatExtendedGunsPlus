@@ -3,14 +3,14 @@
 
   <!-- === Base === -->
   <ThingDef ParentName="TurretMannedCraftableBase">
-    <defName>Turret_PortableMortar</defName>
+    <defName>CE_Turret_PortableMortar</defName>
     <label>M224 LWCMS</label>
     <description>The M224 LWCMS (Lightweight Company Mortar System) mortar is a 60mm portable mortar used for close-in support of ground troops.</description>
-    <uiIconPath>Turrets/PortableMortar</uiIconPath>
+    <uiIconPath>Things/Turrets/PortableMortar</uiIconPath>
     <uiIconScale>0.90</uiIconScale>
     <constructionSkillPrerequisite>6</constructionSkillPrerequisite>
     <graphicData>
-      <texPath>Turrets/PortableMortar_Base</texPath>
+      <texPath>Things/Turrets/PortableMortar_Base</texPath>
       <drawSize>(2,2)</drawSize>
     </graphicData>
     <statBases>
@@ -27,7 +27,7 @@
     </tradeTags>
     <specialDisplayRadius>8</specialDisplayRadius>
     <building>
-      <turretGunDef>Gun_PortableMortar</turretGunDef>
+      <turretGunDef>CE_Gun_PortableMortar</turretGunDef>
       <ai_combatDangerous>true</ai_combatDangerous>
       <turretBurstCooldownTime>1</turretBurstCooldownTime>
       <spawnedConceptLearnOpportunity>CE_MortarDirectFire</spawnedConceptLearnOpportunity>
@@ -45,10 +45,10 @@
 
   <!-- === Turret === -->
   <ThingDef ParentName="BaseTurretGun">
-    <defName>Gun_PortableMortar</defName>
+    <defName>CE_Gun_PortableMortar</defName>
     <label>M224 LWCMS</label>
     <graphicData>
-      <texPath>Turrets/PortableMortar_Turret</texPath>
+      <texPath>Things/Turrets/PortableMortar_Turret</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <description>60mm mortar on a portable emplacement.</description>
@@ -71,7 +71,7 @@
         <minRange>8</minRange>
         <range>500</range>
         <burstShotCount />
-        <soundCast>Shot_CEP_M224</soundCast>
+        <soundCast>Shot_CE_M224</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>16</muzzleFlashScale>
         <circularError>1</circularError>
